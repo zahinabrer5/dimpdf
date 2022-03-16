@@ -1,7 +1,7 @@
 {
     "name": "DimPDF",
     "description": "Make your PDFs easier on the eyes",
-    "version": "1.0",
+    "version": "0.0.1",
     "manifest_version": 3,
     "content_scripts": [
         {
