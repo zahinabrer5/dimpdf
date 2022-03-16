@@ -12,16 +12,16 @@
     ],
     "action": {
         "default_icon": {
-            "16": "/images/dimpdf16.png",
-            "32": "/images/dimpdf32.png",
-            "48": "/images/dimpdf48.png",
-            "128": "/images/dimpdf128.png"
+            "16": "/images/logo/dimpdf16.png",
+            "32": "/images/logo/dimpdf32.png",
+            "48": "/images/logo/dimpdf48.png",
+            "128": "/images/logo/dimpdf128.png"
         }
     },
     "icons": {
-        "16": "/images/dimpdf16.png",
-        "32": "/images/dimpdf32.png",
-        "48": "/images/dimpdf48.png",
-        "128": "/images/dimpdf128.png"
+        "16": "/images/logo/dimpdf16.png",
+        "32": "/images/logo/dimpdf32.png",
+        "48": "/images/logo/dimpdf48.png",
+        "128": "/images/logo/dimpdf128.png"
     }
 }
