@@ -3,9 +3,6 @@
     "description": "Make your PDFs easier on the eyes",
     "version": "1.0",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
     "content_scripts": [
         {
             "matches": ["http://*/*.pdf", "https://*/*.pdf", "file://*/*.pdf"],
@@ -13,7 +10,6 @@
             "js": ["content-script.js"]
         }
     ],
-    "permissions": ["activeTab"],
     "action": {
         "default_icon": {
             "16": "/images/dimpdf16.png",
