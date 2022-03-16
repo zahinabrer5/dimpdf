@@ -1,0 +1,31 @@
+{
+    "name": "DimPDF",
+    "description": "Make your PDFs easier on the eyes",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*.pdf", "https://*/*.pdf", "file://*/*.pdf"],
+            "run_at": "document_idle",
+            "js": ["content-script.js"]
+        }
+    ],
+    "permissions": ["activeTab"],
+    "action": {
+        "default_icon": {
+            "16": "/images/dimpdf16.png",
+            "32": "/images/dimpdf32.png",
+            "48": "/images/dimpdf48.png",
+            "128": "/images/dimpdf128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/dimpdf16.png",
+        "32": "/images/dimpdf32.png",
+        "48": "/images/dimpdf48.png",
+        "128": "/images/dimpdf128.png"
+    }
+}
