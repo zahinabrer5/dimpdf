@@ -6,9 +6,7 @@
 
 Simple Chrome extension that adds an inverted colour overlay to both local PDFs and PDFs hosted on the internet.
 
----
-
-### Screenshots
+## Screenshots
 
 #### Before
 ![Focused (before)](/images/readme/screenshots/focused_before.png)
@@ -18,9 +16,7 @@ Simple Chrome extension that adds an inverted colour overlay to both local PDFs 
 ![Focused (afer)](/images/readme/screenshots/focused_after.png)
 ![With Sidepane (after)](/images/readme/screenshots/sidepane_after.png)
 
----
-
-### How to Install
+## How to Install
 
 1. Clone this git repository or download zip and extract it
 
