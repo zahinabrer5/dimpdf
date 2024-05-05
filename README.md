@@ -31,7 +31,7 @@ Simple Chrome extension that adds an inverted colour overlay to both local PDFs 
 
     ![Step 1](/images/readme/installation/step1.png)
 
-2. Go to `chrome://extentions`
+2. Go to `chrome://extensions`
 
     ![Step 2](/images/readme/installation/step2.png)
 
